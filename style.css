@@ -1,0 +1,62 @@
+/*========================    RESET   ========================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  p{
+    text-align: justify;
+  }
+
+  h1{ font-size: 24px; }
+
+  h2{ font-size: 20px; }
+  
+  h3{ font-size: 18px; }
+  
+  h4{ font-size: 16px;}
+
+/*========================    VARIABLES   ========================*/
+:root {
+    --header-margin-wd-min: 4.5rem; 
+}
+
+/*========================    BASE   ========================*/
+.separator_lw{
+    margin: 0.5rem 0 0.5rem 0;
+}
+.separator_md{
+    margin: 1.5rem 0 1.5rem 0;
+}
+.separator_hg{
+    margin: 2.5rem 0 2.5rem 0;
+}
+
+.title {
+    text-align: center;
+}
+
+.header_name{
+    display: flex;
+    justify-content: center;
+}

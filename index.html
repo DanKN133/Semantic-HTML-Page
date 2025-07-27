@@ -1,31 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-bt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <script src="main.js"></script>
+    <title>Energia Inteligente</title>
 </head>
 <body>
     <header>
-        <h1>Energia Inteligente</h1>
+        <p class="header_name">Energia Inteligente</p>
     </header>
 
-    <nav>
+    <nav class="nav_bar">
         <ul>
-            <li><a href="">Como funciona?</a></li>
-            <li><a href="">Dicas</a></li>
-            <li><a href="">Outras fontes</a></li>
-            <li><a href="">Desafio</a></li>
-            <li><a href="">Sobre</a></li>
-            <li><a href="">Botão de alterar a luz</a></li>
+            <li><a href="#how_works">Como funciona?</a></li>
+            <li><a href="#simulator">Simulador</a></li>
+            <li><a href="#others_fonts">Outras fontes</a></li>
+            <li><a href="#challenges">Desafios</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a> Botão de alterar a luz </a></li>
         </ul>    
     </nav>
+    <div class="separator_hg"></div>
 
     <main>
-        <h2>Educação e Economia de Energia Elétrica</h2 >
-        <section>
+        <h1 class="title">Educação e Economia de Energia Elétrica</h2 >
+        <div class="separator_hg"></div>
+        <section id="how_works">
             <article>
                 <h2>Como funciona a energia elétrica?</h2>
+                <div class="separator_lw"></div>
                 <p>A energia elétrica é gerada em usinas (hidrelétricas, termelétricas, solares, etc.), 
                     onde algum tipo de energia (como a força da água, calor ou luz do sol) é transformado 
                     em eletricidade. Essa energia viaja por linhas de transmissão até as cidades, passando 
@@ -34,27 +41,73 @@
                     TVs, carregadores, entre outros.</p>
 
         </section>
-        <section>
+
+        <div class="separator_hg"></div>
+
+        <section id="simulator">
             <article>
                 <h2>Simulador de consumo elétrico</h2>
-                <p>Widgets are great. Here's how to make one.</p>
+                <div class="separator_lw"></div>
+                <p>Estime seu custo de energia mensal:</p>
+                <!-- Criar label, input e output -->
         </section>
-        <section>
+        <div class="separator_hg"></div>
+        <section id="others_fonts">
             <article>
-                <h2>Energia solar e outras fontes renováveis</h2>
-                <p>Widgets are great. Here's how to make one.</p>
+                <h2>Fontes renováveis de energia</h2>
+                <div class="separator_lw"></div>
+                <p>Fontes renováveis são aquelas que vêm da natureza e se renovam com 
+                    facilidade, como o sol, o vento e a água. Elas são limpas e não poluem 
+                    o meio ambiente.</p>
+                    <ul>
+                        <li>Solar: Usa a luz do sol para gerar eletricidade com painéis solares.</li>
+                        <li>Eólica: Usa o vento para girar turbinas e produzir energia.</li>
+                        <li>Hidrelétrica: Usa a força da água de rios e represas.</li>
+                        <li>Biomassa: Queima resíduos orgânicos para gerar energia.</li>
+                        <li>Geotérmica: Usa o calor do interior da Terra.</li>
+                    </ul>
+                    <p>Essas fontes ajudam a proteger o planeta e podem até reduzir a conta de luz!</p>
         </section>
-        <section>
+
+        <div class="separator_hg"></div>
+
+        <section id="challenges">
             <article>
-                <h2>Desafios semanal</h2>
-                <p>Widgets are great. Here's how to make one.</p>
+                <h2>Desafios semanais</h2>
+                <div class="separator_lw"></div>
+                <p>Pequenas atitudes no dia a dia fazem grande diferença!</p>
+                <div class="separator_md"></div>
+                <h4>Desafio 1 – Semana da Luz Consciente</h4>
+                <p>Objetivo: Trocar lâmpadas incandescentes ou fluorescentes por LED e 
+                    lembrar de apagar as luzes ao sair dos cômodos.</p>
+                <div class="separator_lw"></div>
+                <h4>Desafio 2 – Desconecta Aí!</h4>
+                <p>Objetivo: Desligar da tomada os aparelhos que ficam em modo stand-by 
+                    (TVs, micro-ondas, carregadores, etc.).</p>
+                <div class="separator_lw"></div>
+                <h4>Desafio 3 – Banho Esperto</h4>
+                <p>Objetivo: Diminuir o tempo do banho para máximo de 5 minutos, 
+                    especialmente se for com chuveiro elétrico.</p>
+                <div class="separator_lw"></div>
+                <h4>Desafio 4 – Dia Sem Telas</h4>
+                <p>Objetivo: Escolher um dia da semana sem usar aparelhos eletrônicos 
+                    (TV, videogame, celular, etc.) por pelo menos 4 horas.</p>
+            <div class="separator_md"></div>
+            <p>Com esses desafios, você economiza energia e ainda ajuda 
+                a cuidar do planeta.</p>
         </section>
 
     </main>
-    
-    <aside></aside>
+    <div class="separator_hg"></div>
+    <!-- Anuncio lateral descartado -->
+    <!-- <aside></aside> -->
 
-    <footer></footer>
+    <footer>
+        <section id="about">
+            <h4>Assine nossa newsletter</h4>
+            <!-- Fazer um formulário -->
+        </section>
+    </footer>
     
 </body>
 </html>
